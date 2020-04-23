@@ -21,17 +21,17 @@ namespace Minirechner
             Console.WriteLine("Zahl 2:");
             Zahl_2 = Convert.ToInt16(Console.ReadLine());
 
-            if (Rechenart == "*")
-                Ergebnis = Multiplikation(Zahl_1, Zahl_2);
+            if (Rechenart == "/")
+                Ergebnis = Division(Zahl_1, Zahl_2);
 
             
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
         }
-        static int Multiplikation(int Zahl_1, int Zahl_2)
+        static int Division(int Zahl_1, int Zahl_2)
         {
-            int Erg = Zahl_1 * Zahl_2;
+            int Erg = Zahl_1 / Zahl_2;
             return Erg;
         }
     }
