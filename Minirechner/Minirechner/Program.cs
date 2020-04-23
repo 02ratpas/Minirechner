@@ -21,16 +21,17 @@ namespace Minirechner
             Console.WriteLine("Zahl 2:");
             Zahl_2 = Convert.ToInt16(Console.ReadLine());
 
-            if (Rechenart == "+")
-                Ergebnis = Addieren(Zahl_1, Zahl_2);
+            if (Rechenart == "-")
+                Ergebnis = Subtrahieren(Zahl_1, Zahl_2);
+
             
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
         }
-        static int Addieren(int Zahl_1, int Zahl_2)
+        static int Subtrahieren(int Zahl_1, int Zahl_2)
         {
-            int Erg = Zahl_1 + Zahl_2;
+            int Erg = Zahl_1 - Zahl_2;
             return Erg;
         }
     }
