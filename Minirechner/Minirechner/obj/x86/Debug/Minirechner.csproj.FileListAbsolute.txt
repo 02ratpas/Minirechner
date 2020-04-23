@@ -1,0 +1,4 @@
+C:\Users\Pascal\Desktop\Schule TFO\4. Klasse\Automation\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.exe
+C:\Users\Pascal\Desktop\Schule TFO\4. Klasse\Automation\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.pdb
+C:\Users\Pascal\Desktop\Schule TFO\4. Klasse\Automation\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.exe
+C:\Users\Pascal\Desktop\Schule TFO\4. Klasse\Automation\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.pdb
